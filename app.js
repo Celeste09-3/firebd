@@ -214,7 +214,7 @@ async function mostrarProgreso(id) {
         }
       ]
     },
-    options: {
+    options: { //comentar
       responsive: true,
       scales: {
         y: {
