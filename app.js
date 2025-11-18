@@ -13,13 +13,13 @@ import {
 
 // Configuración de Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyCCgUMgXJ6iO9M6tFq701CXTt0UzVlQano",
-  authDomain: "crud-estudiantes-1a48b.firebaseapp.com",
-  projectId: "crud-estudiantes-1a48b",
-  storageBucket: "crud-estudiantes-1a48b.appspot.com",
-  messagingSenderId: "1037419709684",
-  appId: "1:1037419709684:web:3b0e6f968e3bf7127f48aa1",
-  measurementId: "G-R8J697Z6B"
+  apiKey: "AIzaSyAqRF2BB0FMvR2lnE1CQTXfkROuik_2RQM",
+  authDomain: "crud-estudiantes-48183.firebaseapp.com",
+  projectId: "crud-estudiantes-48183",
+  storageBucket: "crud-estudiantes-48183.firebasestorage.app",
+  messagingSenderId: "261509715144",
+  appId: "1:261509715144:web:9b5db96aade01936cc81fd",
+  measurementId: "G-NH9MKEYYFN"
 };
 
 // Inicializar Firebase y Firestore
