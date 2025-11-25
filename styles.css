@@ -1,8 +1,8 @@
-/* Este es un comentario de una sola línea */
 :root {
-  --uaem-verde: #00522b;
-  --uaem-verde-oscuro: #01301a;
-  --uaem-dorado: #c9a648;
+  --uaem-rojo: #b22222;
+  --uaem-rojo-oscuro: #8b0000;
+  --uaem-amarillo: #ffd700;
+  --uaem-naranja: #ff8c00;
   --uaem-crema: #f5efe1;
   --bg-main: #f4f4f4;
   --text-principal: #1f2933;
@@ -23,7 +23,7 @@ body {
 }
 
 .uaem-header {
-  background: linear-gradient(90deg, var(--uaem-verde-oscuro), var(--uaem-verde));
+  background: linear-gradient(90deg, var(--uaem-rojo-oscuro), var(--uaem-rojo));
   color: white;
   padding: 14px 32px;
   display: flex;
@@ -61,7 +61,7 @@ body {
 .uaem-badge {
   padding: 4px 10px;
   border-radius: 999px;
-  background: var(--uaem-dorado);
+  background: var(--uaem-amarillo);
   color: #1f2933;
   font-size: 12px;
   font-weight: 600;
@@ -99,7 +99,7 @@ body {
   margin: 0 0 4px;
   font-size: 18px;
   font-weight: 600;
-  color: var(--uaem-verde-oscuro);
+  color: var(--uaem-rojo-oscuro);
 }
 
 .card-subtitle {
@@ -139,8 +139,8 @@ select {
 
 input:focus,
 select:focus {
-  border-color: var(--uaem-verde);
-  box-shadow: 0 0 0 2px rgba(0, 82, 43, 0.16);
+  border-color: var(--uaem-rojo);
+  box-shadow: 0 0 0 2px rgba(178, 34, 34, 0.16);
 }
 
 .form-divider {
@@ -151,7 +151,7 @@ select:focus {
 .form-divider h3 {
   font-size: 14px;
   margin: 0;
-  color: var(--uaem-verde);
+  color: var(--uaem-rojo);
 }
 
 .form-actions {
@@ -176,20 +176,20 @@ select:focus {
 }
 
 .btn-primary {
-  background: var(--uaem-verde);
+  background: var(--uaem-rojo);
   color: #f9fafb;
-  box-shadow: 0 2px 6px rgba(0, 82, 43, 0.3);
+  box-shadow: 0 2px 6px rgba(178, 34, 34, 0.3);
 }
 
 .btn-primary:hover {
-  background: var(--uaem-verde-oscuro);
+  background: var(--uaem-rojo-oscuro);
   transform: translateY(-1px);
 }
 
 .btn-secondary {
   background: #ffffff;
-  color: var(--uaem-verde);
-  border: 1px solid var(--uaem-verde);
+  color: var(--uaem-rojo);
+  border: 1px solid var(--uaem-rojo);
 }
 
 .btn-secondary:hover {
@@ -204,7 +204,7 @@ select:focus {
 }
 
 .btn-progreso {
-  background: var(--uaem-dorado);
+  background: var(--uaem-naranja);
   color: #1f2933;
 }
 
